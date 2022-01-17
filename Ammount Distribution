@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int amount,divide,m,final,new,current;
+    scanf("%d",&amount);
+    divide=(amount*2)/100;
+    m=divide*5;
+    final=amount-m;
+    new=(final*70)/100;
+    current=amount-new;
+    printf("each candidate will recieve %d",divide);
+    printf("\n 6th candidate will get %d",current);
+     printf("\n 7th candidate will get %d",new);
+    
+
+    return 0;
+}
